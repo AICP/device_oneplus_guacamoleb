@@ -19,7 +19,7 @@
     <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
 
     <!-- Color of the FOD view -->
-    <color name="config_fodColor">#ccccac</color>
+    <color name="config_fodColor">#FF00CC00</color>
 
     <!-- Allow devices to use unordinary cutout overlays -->
     <bool name="config_customCutout">true</bool>
