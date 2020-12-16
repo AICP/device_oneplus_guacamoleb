@@ -28,6 +28,15 @@
     <!-- Path to devices single-tap toggle file -->
     <string name="pathSTapToggle">/proc/touchpanel/single_tap_enable</string>
 
+    <!-- Path to devices doubletap to wake toggle file -->
+    <string name="pathDoubleTapToWakeToggle">/sys/android_touch/doubletap2wake</string>
+
+    <!-- Path to devices sweep to sleep toggle file -->
+    <string name="pathSweepToSleepToggle">/sys/android_touch/sweep2sleep</string>
+
+    <!-- Path to devices sweep to wake toggle file -->
+    <string name="pathSweepToWakeToggle">/sys/android_touch/sweep2wake</string>
+
     <!-- Path to devices High Brigness Mode toggle file -->
     <string name="pathHBMModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm</string>
     <string name="hbmOFF">"0"</string>
@@ -60,8 +69,10 @@
     <!-- Device Gesture Paths -->
     <string name="pathGestureCircle">/proc/touchpanel/letter_o_enable</string>
     <string name="pathGestureDoubleSwipe">/proc/touchpanel/double_swipe_enable</string>
-    <string name="pathGestureLeftArrow">/proc/touchpanel/left_arrow_enable</string>
-    <string name="pathGestureRightArrow">/proc/touchpanel/right_arrow_enable</string>
+    <!-- <string name="pathGestureLeftArrow">/proc/touchpanel/left_arrow_enable</string> -->
+    <!-- <string name="pathGestureRightArrow">/proc/touchpanel/right_arrow_enable</string> -->
+    <!-- <string name="pathGestureUpArrow">/proc/touchpanel/up_arrow_enable</string> -->
+    <string name="pathGestureDownArrow">/proc/touchpanel/down_arrow_enable</string>
     <string name="pathGestureM">/proc/touchpanel/letter_m_enable</string>
     <string name="pathGestureS">/proc/touchpanel/letter_s_enable</string>
     <string name="pathGestureW">/proc/touchpanel/letter_w_enable</string>
