@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9eafd1ed_178321ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6
+      },
+      "writtenOn": "2020-12-29T17:35:26Z",
+      "side": 1,
+      "message": "\u003e Patch Set 1:\n\u003e \n\u003e isn\u0027t that for R?\n\nAlso in Q\nsrc/com/android/systemui/statusbar/phone/NotificationIconContainer.java:132:            getResources().getInteger(R.integer.config_maxVisibleNotificationIconsOnLock);\nres/values/aicp_config.xml:48:    \u003cinteger name\u003d\"config_maxVisibleNotificationIconsOnLock\"\u003e6\u003c/integer\u003e\n",
+      "revId": "91b754f89e9c191944a9540592d5008c7781215f",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
